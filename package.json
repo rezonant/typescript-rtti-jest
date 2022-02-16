@@ -17,6 +17,6 @@
   "dependencies": {
     "@types/jest": "^27.4.0",
     "reflect-metadata": "^0.1.13",
-    "typescript-rtti": "^0.1.1"
+    "typescript-rtti": "^0.1.2"
   }
 }
