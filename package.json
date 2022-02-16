@@ -1,0 +1,22 @@
+{
+  "name": "typescript-rtti-jest",
+  "version": "0.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^27.5.1",
+    "ts-jest": "^27.1.3",
+    "ttypescript": "^1.5.13",
+    "typescript": "^4.5.5"
+  },
+  "dependencies": {
+    "@types/jest": "^27.4.0",
+    "reflect-metadata": "^0.1.13",
+    "typescript-rtti": "^0.1.1"
+  }
+}

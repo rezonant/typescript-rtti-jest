@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+		"experimentalDecorators": true,
+		"target": "ES2016",
+		"sourceMap": true,
+		"declarationMap": true,
+		"outDir": "./dist",
+        "rootDir": "./src",
+		"module": "commonjs",
+		"moduleResolution": "node",
+        "esModuleInterop": true,
+		"lib": [
+			"es2016",
+			"dom"
+		],
+		"declaration": true,
+		"emitDecoratorMetadata": true,
+		"downlevelIteration": true,
+        "plugins": [{ "transform": "typescript-rtti/dist/transformer" }]
+    }
+}
